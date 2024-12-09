@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="StaffControllerURL" method="get">
+        <table>
+            <tr>
+                <td>Staff_id</td>
+                <td><input type="text" name="staff_id" id=""></td>
+            </tr>
+            <tr>
+                <td>First_name</td>
+                <td><input type="text" name="fname" id=""></td>
+            </tr>
+            <tr>
+                <td>Last_name</td>
+                <td><input type="text" name="lname" id=""></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="email" id=""></td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td><input type="text" name="phone" id=""></td>
+            </tr>
+            <tr>
+                <td>Active</td>
+                <td><input type="radio" name="active" id="" value="1"> active
+                    <input type="radio" name="active" id="" value="0"> deactive</td>
+            </tr>
+            <tr>
+                <td>Store</td>
+                <td><select name="store" id="">
+                    <option value="1">Santa Cruz Bikes</option>
+                    <option value="2">Baldwin Bikes</option>
+                    <option value="3">Rowlett Bikes</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Manager_id</td>
+                <td><select name="manager_id" id="">
+                    <option value="1">Fabiola Jackson</option>
+                    <option value="2">Mireya Copeland</option>
+                    <option value="3">Genna Serrano</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" value="Add Staff"></td>
+                <td><input type="reset" value="Reset"></td>
+                <input type="hidden" name="service" value="insertStaff">
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
